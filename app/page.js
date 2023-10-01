@@ -1,9 +1,10 @@
 "use client"
 import { useState } from "react"
+// import '../public/temp'
 
 export default function Home(){
     const [url, seturl] = useState('');
-    const [qrUrl, setqrUrl] = useState('https://learn.g2.com/hubfs/QR%20codes.jpeg');
+    const [qrUrl, setqrUrl] = useState('https://i.ibb.co/31BW7NR/temp-Image.png');
     const urlRegex = /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$/
 
     function get(e){
