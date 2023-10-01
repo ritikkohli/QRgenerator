@@ -22,6 +22,18 @@ html,body{
         gap: 2rem;
         margin: 2rem 1rem;
     }
+    #main{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 40px;
+    }
 }
 #url-box{
     height: 2.8rem;
