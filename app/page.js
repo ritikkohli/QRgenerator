@@ -1,6 +1,5 @@
 "use client"
 import { useState } from "react"
-// import '../public/temp'
 
 export default function Home(){
     const [url, seturl] = useState('');
@@ -25,6 +24,7 @@ export default function Home(){
         if(qrUrl == 'https://i.ibb.co/31BW7NR/temp-Image.png') return
         const filename = Math.random().toString(36).substring(2,9)+'.png';
         
+        // ------------- downloading technique ------------        
         fetch(qrUrl)
         .then((response) => response.blob())
         .then((blob) => {
